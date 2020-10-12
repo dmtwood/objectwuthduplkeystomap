@@ -21,10 +21,10 @@ public class test {
         Map<String, Integer> map = new LinkedHashMap<>();
 
         // foutmelding door duplicate keys
-        for (Employee employee : employeesList) {
-            int freq = map.get(employee);
-            map.put(employee.getName(), (freq == 0)? 1 : map.get(employee.getName()) +1 );
-        }
+//        for (Employee employee : employeesList) {
+//            int freq = map.get(employee);
+//            map.put(employee.getName(), (freq == 0)? 1 : map.get(employee.getName()) +1 );
+//        }
 
         // werkt maar in twee stappen
         for (Employee employee : employeesList) {
