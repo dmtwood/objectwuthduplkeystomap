@@ -28,7 +28,6 @@ public class test {
 
         // werkt maar in twee stappen
         for (Employee employee : employeesList) {
-            int freq = map.get(employee);
             map.put(employee.getName(), 0);
         }
         for (Employee employee : employeesList) {
